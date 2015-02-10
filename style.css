@@ -1,0 +1,60 @@
+/* css */
+
+
+
+body { background-color: #f3edae; 
+font-family: 'Raleway', sans-serif;
+  font-size: 17px;
+  line-height: 30px;
+  max-width: 760px;
+  margin: 0 auto;
+}
+h1 {font-family: 'Lobster', cursive;
+  font-size: 87px;
+  line-height: 90px;
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+h2 {
+  font-size: 50px;
+  line-height: 60px;
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+h3 {
+  font-size: 29px;
+  line-height: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+h4 {
+  font-size: 17px;
+  line-height: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+p, ul, ol, pre, table, blockquote {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+/* Sanitation */
+hr {
+  border: 1px solid;
+  margin: -1px 0;
+}
+ul ul, ol ol, ul ol, ol ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+b, strong, em, small, code {
+  line-height: 1;
+}
+sup, sub {
+  vertical-align: baseline;
+  position: relative;
+  top: -0.4em;
+}
+sub {
+  top: 0.4em;
+}
